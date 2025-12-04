@@ -35,3 +35,7 @@
 | ItemNotFoundException            | Товар/позиция не найдены в корзине/магазине          |
 | EmptyCartException               | Попытка оформить пустую корзину                      |
 | ShopException                    | Базовый класс для всех ошибок магазина               |
+
+## UML Diagram
+
+![UML diagram](images/uml.png)
