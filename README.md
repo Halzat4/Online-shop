@@ -36,6 +36,6 @@
 | EmptyCartException               | Попытка оформить пустую корзину                      |
 | ShopException                    | Базовый класс для всех ошибок магазина               |
 
-## UML Diagram
+## UML диаграмма
 
-![UML diagram](images/uml.png)
+![UML diagram](UML-диаграмма.jpeg)
