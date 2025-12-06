@@ -1,5 +1,22 @@
 Учебный консольный интернет‑магазин с корзиной, заказами, валидацией данных и сохранением клиентов в JSON.
 
+## Структура проекта
+
+Код разделён на логические модули:
+
+- exceptions.py — все пользовательские исключения (ShopException, InvalidDataException, и т.д.).
+- models.py — основные модели домена:
+  - Tovar, ElementKorziny, Korzina,
+  - Pokupatel, ElementZakaza, Zakaz.
+- store.py — бизнес‑логика магазина:
+  - класс Magazin,
+  - функции zapolnit_magazin, pokazat_tovary, restore_cart.
+- clients_io.py — работа с данными клиентов:
+  - load_clients(), save_clients(), файл clients.json.
+- main.py — консольный интерфейс и запуск приложения (main()).
+- Unittest (опционально) — юнит‑тесты для моделей и логики магазина.
+
+
 ## Возможности
 
 - Просмотр ассортимента товаров (цены в тенге)
